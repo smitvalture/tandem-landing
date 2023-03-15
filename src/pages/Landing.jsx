@@ -10,7 +10,7 @@ import Section3 from '../components/Section3'
 
 const Landing = () => {
   return (
-    <div>
+    <div className='px-8'>
       <Header />
       <Section1 />
       <Mission />
