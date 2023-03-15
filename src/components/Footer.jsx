@@ -38,13 +38,13 @@ const Footer = () => {
                             <div className="mid flex flex-col lap:text-center lap:space-y-4">
                                 <p className="text-[15px] font-medium">Follow Us</p>
                                 <div className="flex space-x-3">
-                                    <a href="#">
+                                    <a target="_blank" href="https://www.instagram.com/tandempay/">
                                         <FaFacebookSquare className='text-2xl text-gray-400 hover:text-white' />
                                     </a>
-                                    <a href="#">
+                                    <a target="_blank" href="https://twitter.com/Tandempay">
                                         <FaTwitterSquare className='text-2xl text-gray-400 hover:text-white' />
                                     </a>
-                                    <a href="#">
+                                    <a target="_blank" href="https://www.instagram.com/tandempay">
                                         <FaInstagramSquare className='text-2xl text-gray-400 hover:text-white' />
                                     </a>
                                 </div>

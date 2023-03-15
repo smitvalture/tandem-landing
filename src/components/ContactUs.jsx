@@ -36,13 +36,13 @@ const ContactUs = () => {
                         </a>
                     </div>
                     <div>
-                        <p className="text-2xl text-center font-semibold">For Investor</p>
-                        <a target="_blank" href="mailto:invest@tandempay.co">
+                        <p className="text-2xl text-center font-semibold">For Media</p>
+                        <a target="_blank" href="mailto:media@tandempay.co">
                             <div className="left h-24 w-[340px] lap:w-[360px] px-5 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex content-between items-center justify-start">
                                 <IoIosMail className="mr-5 text-6xl bg-white p-2 rounded-full shadow-md" />
                                 {/* <img className="mr-5" src="/images/email_icon.svg" alt="mail-img" /> */}
                                 <div className="text-left text-xl">
-                                    <p>invest@tandempay.co</p>
+                                    <p>media@tandempay.co</p>
                                     <span className="text-[#737373]">Will reply in 24hrs</span>
                                 </div>
                             </div>
