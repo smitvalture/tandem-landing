@@ -6,7 +6,7 @@ import img2 from '../assets/images/app_phone_img.webp'
 const Mission = () => {
     return (
         <div id="mission">
-            <section className="text-[#15213A] flex flex-col justify-center items-center py-8">
+            <section className="text-[#15213A] flex flex-col justify-center items-center py-8 px-6">
                 <h1 className="text-2xl w-[300px] leading-8 tab:text-3xl lap:text-5xl lap:w-[580px] lap:leading-[60px] text-center font-semibold mt-16 lap:mt-24">
                     Seamless Integration with your favorite apps
                 </h1>

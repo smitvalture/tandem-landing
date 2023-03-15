@@ -81,7 +81,7 @@ const Demo = () => {
 
     return (
         <div>
-            <section id="demo" className="flex flex-col lap:grid lap:grid-cols-2 lap:place-items-center justify-center items-center">
+            <section id="demo" className="flex flex-col lap:grid lap:grid-cols-2 lap:place-items-center justify-center items-center px-6">
                 <div className="flex flex-col justify-center items-center lap:ml-32">
                     <div className="text-[#272746] text-center">
                         <h1 className="text-3xl lap:text-4xl font-medium mt-[73px] lap:mt-0">

@@ -4,7 +4,7 @@ import { IoIosMail } from 'react-icons/io';
 const ContactUs = () => {
     return (
         <div>
-            <section id="contact" className="flex flex-col justify-center items-center bg-[#d7e5f2]">
+            <section id="contact" className="flex flex-col justify-center items-center bg-[#d7e5f2] px-6">
                 <h1 className="text-3xl lap:text-5xl font-medium lap:font-semibold mt-24 lap:mt-32">
                     Reach out to Us
                 </h1>

@@ -17,7 +17,7 @@ const Section4 = () => {
 
     return (
         <div>
-            <section className="flex flex-col justify-center items-center bg-[#d7e5f2]">
+            <section className="flex flex-col justify-center items-center bg-[#d7e5f2] px-6">
                 <h1 className="mt-24 lap:mt-28 w-[336px] lap:w-[432px] text-3xl lap:text-4xl font-medium text-center">
                     See how much you can save with Tandem
                 </h1>
