@@ -21,11 +21,11 @@ const Header = () => {
                         {/* List       */}
                         <div id="menu" className={`hidden lap:block`}>
                             <ul className="lap:inline-flex lap:flex-row lap:items-center lap:space-x-4">
-                                <li className="my-6 lap:my-0 lap:ml-4">
+                                {/* <li className="my-6 lap:my-0 lap:ml-4">
                                     <Link to={"#mission"} className="text-lg font-medium hover:text-cyan-500 duration-500 lap:transition-none" onClick={() => setToggle(!toggle)}>Our mission</Link>
 
-                                </li>
-                                <li className="my-6 lap:my-0">
+                                </li> */}
+                                <li className="my-6 lap:my-0 lap:ml-4">
                                     <a href="#demo" className="text-lg font-medium hover:text-cyan-500 duration-500 lap:transition-none" onClick={() => setToggle(!toggle)}>Live
                                         demo</a>
                                 </li>
@@ -53,9 +53,9 @@ const Header = () => {
                 <div className={`text-center lap:hidden block absolute w-full duration-300 left-0 ${toggle ? 'top-[68px]' : 'top-[-340px]'}`}>
                     <div className={`p-10 flex flex-col justify-center items-center bg-cyan-300 shadow-lg rounded-3xl rounded-t-none`}>
                         <ul className="space-y-4">
-                            <li className="">
+                            {/* <li className="">
                                 <a href="#mission" className="text-lg font-medium hover:text-cyan-500 duration-500" onClick={() => setToggle(!toggle)}>Our mission</a>
-                            </li>
+                            </li> */}
                             <li className="">
                                 <a href="#demo" className="text-lg font-medium hover:text-cyan-500 duration-500" onClick={() => setToggle(!toggle)}>Live
                                     demo</a>
