@@ -14,7 +14,7 @@ const Section1 = () => {
                     them a unique payout structure, which not only lets them save money but also
                     makes their workforce satisfied &amp; happy.
                 </p>
-                <div className="mt-12 mb-36 flex flex-col content-center space-y-5 lap:space-y-0 lap:mb-40">
+                <div className="mt-12 mb-36 flex flex-col lap:flex-row content-center space-y-5 lap:space-y-0 lap:mb-40">
                     <Link to={"/signup"} rel="noopener noreferrer">
                         <button
                             className="text-base text-white font-medium border border-1 border-[#272746] rounded-full w-40 h-10 bg-[#272746] hover:bg-[#363662] mr-[5px] lap:mr-[10px]"
