@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Section1 = () => {
 
     return (
-        <div className='hero_bg' >
+        <div className='hero_bg bg-[#d4e2f0]' >
             <div className="flex flex-col justify-center items-center pt-[78px]">
                 <h1 className="text-[#272746] text-4xl lap:text-7xl font-semibold text-center mt-36 lap:mt-40 w-72 lap:w-[573px]">
                     Save money on your payroll
