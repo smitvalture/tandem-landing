@@ -12,7 +12,7 @@ const ContactUs = () => {
                     <div>
                         <p className="text-2xl text-center font-semibold">For General Inquiry</p>
                         <a target="_blank" href="mailto:info@tandempay.co">
-                            <div className="left h-24 w-[360px] px-8 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex items-center justify-start">
+                            <div className="left h-24 w-[340px] lap:w-[360px] px-5 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex content-between items-center justify-start">
                                 <IoIosMail className="mr-5 text-6xl bg-white p-2 rounded-full shadow-md" />
                                 {/* <img className="mr-5" src="/images/email_icon.svg" alt="mail-img" /> */}
                                 <div className="text-left text-xl">
@@ -25,7 +25,7 @@ const ContactUs = () => {
                     <div>
                         <p className="text-2xl text-center font-semibold">For Businesses</p>
                         <a target="_blank" href="mailto:partner@tandempay.co">
-                            <div className="left h-24 w-[360px] px-8 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex items-center justify-start">
+                            <div className="left h-24 w-[340px] lap:w-[360px] px-5 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex content-between items-center justify-start">
                                 <IoIosMail className="mr-5 text-6xl bg-white p-2 rounded-full shadow-md" />
                                 {/* <img className="mr-5" src="/images/email_icon.svg" alt="mail-img" /> */}
                                 <div className="text-left text-xl">
@@ -38,7 +38,7 @@ const ContactUs = () => {
                     <div>
                         <p className="text-2xl text-center font-semibold">For Investor</p>
                         <a target="_blank" href="mailto:invest@tandempay.co">
-                            <div className="left h-24 w-[360px] px-8 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex items-center justify-start">
+                            <div className="left h-24 w-[340px] lap:w-[360px] px-5 mt-2 lap:mt-5 border border-1 border-[#151515] rounded-lg flex content-between items-center justify-start">
                                 <IoIosMail className="mr-5 text-6xl bg-white p-2 rounded-full shadow-md" />
                                 {/* <img className="mr-5" src="/images/email_icon.svg" alt="mail-img" /> */}
                                 <div className="text-left text-xl">

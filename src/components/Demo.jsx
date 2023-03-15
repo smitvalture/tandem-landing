@@ -87,7 +87,7 @@ const Demo = () => {
                         <h1 className="text-3xl lap:text-4xl font-medium mt-[73px] lap:mt-0">
                             Request Live Demo
                         </h1>
-                        <p className="text-[15px] lap:text-lg font-extralight w-[360px] mt-4">
+                        <p className="text-[15px] lap:text-lg font-extralight w-[300px] lap:w-[360px] mt-4">
                             Get live demo and learn how Tandem can help you to reduce your HR cost.
                         </p>
                     </div>
@@ -103,19 +103,19 @@ const Demo = () => {
                         Please note: all fields are required.
                     </p>
                     <div className="grid grid-flow-row mt-6 lap:mt-8 space-y-3 lap:space-y-5">
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.name} name="name" placeholder="Your Name" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="tel" value={dataa.phone} name="phone" placeholder="Phone Number" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.job} name="job" placeholder="Job Title" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.biz} name="biz" placeholder="Business Name" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.biz_type} name="biz_type" placeholder="Business Type" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="number" value={dataa.no_emp} name="no_emp" placeholder="Number of Employees" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.city} name="city" placeholder="City" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.state} name="state" placeholder="State" />
-                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[360px]" onChange={handleChange} type="text" value={dataa.country} name="country" placeholder="Country" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.name} name="name" placeholder="Your Name" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="tel" value={dataa.phone} name="phone" placeholder="Phone Number" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.job} name="job" placeholder="Job Title" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.biz} name="biz" placeholder="Business Name" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.biz_type} name="biz_type" placeholder="Business Type" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="number" value={dataa.no_emp} name="no_emp" placeholder="Number of Employees" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.city} name="city" placeholder="City" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.state} name="state" placeholder="State" />
+                        <input className="border border-1 border-[#272746] text-sm rounded px-4 py-1 lap:py-2 placeholder:text-xs w-[300px] lap:w-[360px]" onChange={handleChange} type="text" value={dataa.country} name="country" placeholder="Country" />
                     </div>
                     {message && <p className='text-xs text-center mt-4 text-green-600'  >{message}</p>}
 
-                    <button className="text-base text-white font-medium border border-1 border-[#1F3C88] rounded-full w-[360px] h-12 mt-6 bg-[#23469f] hover:bg-[#1F3C88] mr-[5px] lap:mr-[10px] mb-28" type="submit">
+                    <button className="text-base text-white font-medium border border-1 border-[#1F3C88] rounded-full w-[300px] lap:w-[360px] h-12 mt-6 bg-[#23469f] hover:bg-[#1F3C88] mr-[5px] lap:mr-[10px] mb-28" type="submit">
                         Request demo
                     </button>
                 </form>

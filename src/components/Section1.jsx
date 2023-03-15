@@ -14,7 +14,7 @@ const Section1 = () => {
                     them a unique payout structure, which not only lets them save money but also
                     makes their workforce satisfied &amp; happy.
                 </p>
-                <div className="mt-12 mb-36 lap:mb-40">
+                <div className="mt-12 mb-36 flex flex-col content-center space-y-5 lap:space-y-0 lap:mb-40">
                     <Link to={"/signup"} rel="noopener noreferrer">
                         <button
                             className="text-base text-white font-medium border border-1 border-[#272746] rounded-full w-40 h-10 bg-[#272746] hover:bg-[#363662] mr-[5px] lap:mr-[10px]"
@@ -24,7 +24,7 @@ const Section1 = () => {
                         </button>
                     </Link>
                     <button
-                        className="text-base font-semibold border border-1 border-[#272746] rounded-full w-40 h-10 ml-[5px] lap:ml-[10px]"
+                        className="text-base font-semibold border border-1 border-[#272746] rounded-full w-40 h-10 lap:ml-[10px]"
                         type="submit"
                     >
                         Learn more

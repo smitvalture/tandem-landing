@@ -57,7 +57,7 @@ const Footer = () => {
                                 monthly news letter
                             </h2>
                             <input
-                                className="w-[340px] h-10 py-1 px-5 mt-5 rounded-md text-black"
+                                className="w-[320px] lap:w-[340px] h-10 py-1 px-5 mt-5 rounded-md text-black"
                                 type="email"
                                 name="email"
                                 id=""
