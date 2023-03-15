@@ -92,8 +92,8 @@ const Demo = () => {
                         </p>
                     </div>
                     <div>
-                        <img className="mt-16 lap:hidden" src={demo_icon} alt="demo-img" />
-                        <img className="hidden lap:block mt-24" src={demo2_icon} alt="demo-img" />
+                        <img className="mt-16 lap:hidden h-[240px] w-auto" src={demo_icon} alt="demo-img" />
+                        <img className="hidden lap:block mt-24 w-[230px] h-auto" src={demo2_icon} alt="demo-img" />
                     </div>
                 </div>
 

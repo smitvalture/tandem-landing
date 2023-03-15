@@ -1,7 +1,7 @@
 import React from 'react'
 import mission_img from '../assets/images/our_mission_img.svg'
-import img from '../assets/images/fav_app.jpg'
-import img2 from '../assets/images/app_phone_img.jpg'
+import img from '../assets/images/fav_app.webp'
+import img2 from '../assets/images/app_phone_img.webp'
 
 const Mission = () => {
     return (
@@ -21,8 +21,8 @@ const Mission = () => {
                     </p>
                     <img className="w-80 h-80 lap:w-96 lap:h-96 mt-16 lap:mt-auto lap:ml-20" src={mission_img} alt="" />
                 </div> */}
-                <img src={img} alt="" className='my-32 w-[920px] hidden lap:block'/>
-                <img src={img2} alt="" className='my-10 w-[920px] lap:hidden'/>
+                <img src={img} alt="" className='my-32 w-[920px] h-auto hidden lap:block'/>
+                <img src={img2} alt="" className='my-10 w-[920px] h-auto lap:hidden'/>
             </section>
         </div>
     )

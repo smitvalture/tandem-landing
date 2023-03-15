@@ -13,7 +13,7 @@ const Header = () => {
             <nav className={`fixed w-screen p-5 lap:flex lap:justify-between lap:items-center duration-300 lap:transition-none hero_bg2`} id="navbar">
                 <div className='max-w-[1240px]'>
                     <div className="flex justify-between items-center">
-                        <Link to={"#mission"}><img className="inline mx-2 h-7 tab:h-8 lap:h-auto" href="#" src={logo} alt="tandem-img" /></Link>
+                        <Link to={"#mission"}><img className="inline mx-2 h-7 w-auto tab:h-8 lap:h-auto" href="#" src={logo} alt="tandem-img" /></Link>
 
                         {toggle ? <AiOutlineClose onClick={() => setToggle(!toggle)} className="text-2xl cursor-pointer mx-2 lap:hidden block" /> : <AiOutlineMenu onClick={() => setToggle(!toggle)} className="text-2xl cursor-pointer mx-2 lap:hidden block" />}
 

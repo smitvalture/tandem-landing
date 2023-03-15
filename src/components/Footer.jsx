@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className="hidden lap:block">
                             <div className="left flex flex-col lap:flex lap:flex-col">
                                 <img
-                                    className="w-32 mb-4"
+                                    className="w-32 mb-4 h-auto"
                                     src={logo_white}
                                     alt="tandem-img"
                                 />
