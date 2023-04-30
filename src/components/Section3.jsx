@@ -24,7 +24,7 @@ const Section4 = () => {
                 <div className="flex flex-col lap:flex-row mt-5 lap:mt-20 justify-center lap:space-x-28 items-center mb-28">
                     <img className="h-[410.4px] w-[380px] lap:h-[453.6px] lap:w-[420px]" src={work} alt="woriking-img" />
                     {!value ? <form method="post">
-                        <div className="w-[340px] lap:ml-32 lap:mr-[124px] bg-white py-10 px-10 rounded-3xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+                        <div className="w-fit lap:ml-32 lap:mr-[124px] bg-white py-10 px-10 rounded-3xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
                             <div className="grid grid-flow-row space-y-1 text-left">
                                 <span className="text-[#7D7D7D] text-base font-normal">Step 1 of 1</span>
                                 <h3 className="text-2xl font-medium">Saving Calculator</h3>
