@@ -34,12 +34,12 @@ const Header = () => {
                                 </li>
                             </ul>
                             <div className="lap:flex lap:items-center mt-10 lap:bottom-5 space-x-4 lap:absolute lap:right-5">
-                                <Link onClick={() => setToggle(!toggle)} to={"/signup"} rel="noopener noreferrer">
+                                <Link onClick={() => setToggle(!toggle)} to={"https://mytandem-business.netlify.app/signup"} rel="noopener noreferrer">
                                     <button className="duration-300 w-28 h-9 font-medium text-white lap:text-black bg-[#1F3C88] lap:bg-transparent hover:bg-[#23459a] lap:hover:bg-transparent lap:hover:text-cyan-500 border border-1 border-[#1F3C88] hover:border-cyan-500 lap:border-0 rounded-full" name="login" type="submit">
                                         Get started
                                     </button>
                                 </Link>
-                                <Link onClick={() => setToggle(!toggle)} to={"/login"} rel="noopener noreferrer">
+                                <Link onClick={() => setToggle(!toggle)} to={"https://mytandem-business.netlify.app/"} rel="noopener noreferrer">
                                     <button className="duration-300 w-28 h-9 font-medium text-[#1F3C88] hover:text-cyan-500 border border-1 border-[#1F3C88] hover:border-cyan-500 lap:transition-none rounded-full" name="login" type="submit">
                                         Log in
                                     </button>
@@ -65,12 +65,12 @@ const Header = () => {
                             </li>
                         </ul>
                         <div className="mt-10 space-x-4">
-                            <Link onClick={() => setToggle(!toggle)} to={"/signup"} target="_blank" rel="noopener noreferrer">
+                            <Link onClick={() => setToggle(!toggle)} to={"https://mytandem-business.netlify.app/signup"} target="_blank" rel="noopener noreferrer">
                                 <button className="w-28 h-9 font-medium text-white bg-[#1F3C88] hover:bg-[#23459a] border border-1 border-[#1F3C88] hover:border-cyan-500 rounded-full" name="login" type="submit">
                                     Get started
                                 </button>
                             </Link>
-                            <Link onClick={() => setToggle(!toggle)} to={"/login"} target="_blank" rel="noopener noreferrer">
+                            <Link onClick={() => setToggle(!toggle)} to={"https://mytandem-business.netlify.app/"} target="_blank" rel="noopener noreferrer">
                                 <button className="w-28 h-9 font-medium text-[#1F3C88] hover:text-cyan-500 border border-1 border-[#1F3C88] hover:border-cyan-500 duration-500 rounded-full" name="login" type="submit">
                                     Log in
                                 </button>
